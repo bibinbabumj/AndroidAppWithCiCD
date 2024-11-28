@@ -11,7 +11,7 @@ class ExpressionParserTest {
     fun `Simple expression is parsed correctly`() {
         ///1.Given
 
-        parserException = ExpressionParser("2+2-3*4/3")
+        parserException = ExpressionParser("3+2-3*4/3")
 
         //2. do sothing with given
         val result = parserException.parse()
