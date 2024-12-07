@@ -11,6 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.mj.software.solutions.pvt.india.androidappwithcicd.presentation.CalculatorScreen
 import com.mj.software.solutions.pvt.india.androidappwithcicd.ui.theme.AndroidAppWithCiCDTheme
 
 class MainActivity : ComponentActivity() {
@@ -19,7 +20,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             AndroidAppWithCiCDTheme {
-
+                CalculatorScreen()
             }
         }
     }
